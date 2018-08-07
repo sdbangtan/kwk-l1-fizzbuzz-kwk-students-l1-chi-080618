@@ -1,14 +1,14 @@
 
 def fizzbuzz(number)
   if number % 3 == 0 && number % 5 == 0
-    puts "Fizzbuzz"
     return "FizzBuzz"
+    puts "FizzBuzz"
     elsif number % 5 == 0
-    puts "Buzz"
     return "Buzz"
+    puts "Buzz"
     elsif number % 3 == 0
-    puts "Fizz"
     return "Fizz"
+    puts "Fizz"
   else
     puts "nil"
   end

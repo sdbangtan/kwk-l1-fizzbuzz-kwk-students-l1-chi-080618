@@ -3,6 +3,8 @@ require_relative './spec_helper.rb'
 # the below line has been added for lab simplicity, and is required for the test to check the appropriate file.
 require_relative '../fizzbuzz.rb'
 
+#If something is unefined, it doesn't exist!!!
+
 
 describe "fizzbuzz" do
   it 'returns "Fizz" when the number is divisible by 3' do
